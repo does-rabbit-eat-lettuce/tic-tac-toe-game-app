@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #eedcd6;
+  font-family: "Comfortaa", sans-serif;
+}
+
+h1 {
+  font-family: "Lobster", serif;
+}
+
+.message {
+  color: #fff;
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+
+
+
+label {
+    font-size: 4em;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+
+input[type=radio] {
+    margin: 1em;
+    cursor: pointer;
+}
+
+fieldset {
+    display: block;
+    opacity: 1;
+    transition: all ease 1s;
+}
+
+.game-on fieldset {
+    opacity: 0;
+    display: none;
+}
+
+.game-on button {
+    opacity: 1;
+    display: block;
+    margin: 0 auto;
+}
+
+
+#grid-section {
+  margin: 3em 0;
+}
+
+#grid {
+  width: 400px;
+  margin: 0 auto;
+}
+
+li {
+  border: 1px solid #000;
+  width: 100px;
+  height: 100px;
+  display: block;
+  float: left;
+  font-size: 3em;
+  text-align: center;
+  padding: .5em;
+}
+
+.container {
+  grid-template-columns: 40px 50px auto 50px 40px;
+  grid-template-rows: 25% 100px auto;
+}
+
+
+
+
+
+.winner {
+  color: #9AE1E5;
+}
+
+.btn-primary,
+.btn-primary:focus {
+  background-color: #33B7A5;
+  opacity: 0;
+  outline: 0;
+  transition: all ease .3s;
+}
+
+.btn-primary:hover {
+  background-color: #4C2F39;
+}
+
