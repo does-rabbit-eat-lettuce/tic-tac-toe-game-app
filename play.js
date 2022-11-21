@@ -1,6 +1,4 @@
-/**
- * Created by keqin on 2/22/18.
- */
+
 var grid = document.getElementById('grid');
 var msg = document.querySelector('.message');
 var chooser = document.querySelector('form');
